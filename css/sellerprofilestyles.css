@@ -1,0 +1,125 @@
+
+body {
+  font-family: sans-serif;
+}
+
+.sidenav 
+{
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fb2525;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a 
+{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover 
+{
+  color: black;
+}
+
+.sidenav2 
+{
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right:0;
+  background-color: #fb2525;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav2 a 
+{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav2 a:hover
+{
+  color: black;
+}
+
+.main {
+  margin-left: 260px; /* Same as the width of the sidenav */
+  font-size: 22px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+
+  
+}
+
+form .main .card-box
+{
+	width:75%;
+	margin-bottom:15px;
+	margin-bottom: 5px;
+}
+
+.main .card-box .details
+{
+	
+	font-weight:500;
+	margin-bottom:5px;
+	float: left;
+    width: 25%;
+  
+}
+
+.main .card-box input
+{
+	height:45px;
+	outline:none;
+	border-radius: 5px;
+	border: 1px solid ;
+	font-size:16px;
+	padding-left:15px;
+	border-bottom-width:2px;
+	transition: all 0.3s ease;
+	border-bottom-color:#fb2525;
+	border-top-color:#fb2525;
+	margin-bottom:5px;
+	
+}
+
+.main .card-box input:focus,
+.main .card-box input:valid
+{
+	border-color:#fb2525;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+  .sidenav2 {padding-top: 15px;}
+  .sidenav2 a {font-size: 18px;}
+  
+  form .main .card-box
+	{
+		margin-bottom:15px;
+		width:100%;
+		
+		max-height:300px;
+		overflow:scroll;
+	}
+	
+	
+}

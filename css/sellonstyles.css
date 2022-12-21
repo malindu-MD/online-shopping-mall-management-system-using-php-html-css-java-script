@@ -1,0 +1,44 @@
+.banner
+{
+	margin:10px 50px 10px 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:80%;
+	height:385px;
+	padding:5 5;
+	border-radius:25px;
+}
+
+.join
+{
+	padding:10px 0;
+	margin-top:10px;
+	height:75px;
+	width:450px;
+	outline:none;
+	color:white;
+	font-size:35px;
+	font-weight:800;
+	border-radius:50px;
+	border-color:#fb2525;
+	background-color:#fb2525;
+}
+
+.join:hover
+{
+	background:#ffc107;
+	color:black;
+}
+
+@media(max-width:584px)
+{
+	.container
+	{
+		max-width:100%;
+	}
+}
+.container2
+{
+	padding:20px 10px;
+}

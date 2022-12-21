@@ -1,0 +1,178 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif
+}
+
+body
+{
+	color:#fff;
+	display:flex;
+	height: 120vh;
+	align-items:center;
+	justify-content:center;
+    background-repeat: no-repeat;
+	padding:10px;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+	
+}
+
+
+.container
+{
+	max-width:700px;
+
+	width:100%;
+	padding:50px 50px;
+	background:rgb(178, 50, 50);
+	opacity:0.85;
+	border-radius:15px;
+}
+
+.container .heading
+{
+	font-size:25px;
+	font-weight:500;
+	position:relative;
+	text-align:center;
+	padding: 0 0 20px 0;
+}
+
+.container .subheading
+{
+	font-size:20px;
+	font-weight:500;
+	position:relative;
+	text-align:left;
+	padding: 0 0 20px 0;
+}
+
+
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0px;
+  
+}
+
+form .column .card-box
+{
+	width:calc(100% / 2 - 20px );
+	margin-bottom:15px;
+}
+
+.column .card-box .details
+{
+	display:block;
+	font-weight:500;
+	margin-bottom:5px;
+}
+
+.column .card-box input
+{
+	height:45px;
+	outline:none;
+	border-radius: 5px;
+	border: 1px solid ;
+	font-size:16px;
+	padding-left:15px;
+	border-bottom-width:2px;
+	transition: all 0.3s ease;
+	border-bottom-color:#fb2525;
+	border-top-color:#fb2525;
+	
+}
+
+.column .card-box input:focus,
+.column .card-box input:valid
+{
+	border-color:#fb2525;
+}
+
+form .button input
+{
+	padding:10px 0;
+	margin-top:10px;
+	height:100%;
+	width:50%;
+	outline:none;
+	color:black;
+	font-size:18px;
+	font-weight:800;
+	border-radius:15px;
+	background-color:#fb2525
+	
+	
+}
+
+#dis
+{
+	width:151%;
+	height:45px;
+	outline:none;
+	border-radius: 5px;
+	border: 1px solid ;
+	font-size:16px;
+	padding-left:15px;
+	border-bottom-width:2px;
+	transition: all 0.3s ease;
+	border-bottom-color:#fb2525;
+	border-top-color:#fb2525;
+	
+}
+
+#prov
+{
+	width:151%;
+	height:45px;
+	outline:none;
+	border-radius: 5px;
+	border: 1px solid ;
+	font-size:16px;
+	padding-left:15px;
+	border-bottom-width:2px;
+	transition: all 0.3s ease;
+	border-bottom-color:#fb2525;
+	border-top-color:#fb2525;
+	
+
+}
+
+form .button input:hover
+{
+	background:#ffc107;
+}
+
+@media(max-width:584px)
+{
+	.container
+	{
+		max-width:100%;
+	}
+	
+	form .column .card-box
+	{
+		margin-bottom:15px;
+		width:100%;
+	}
+	
+	.container form .column
+	{
+		max-height:300px;
+		overflow:scroll;
+	}
+	
+	.column::_webkit-Scrollbar
+	{
+		width:0;
+	}
+}

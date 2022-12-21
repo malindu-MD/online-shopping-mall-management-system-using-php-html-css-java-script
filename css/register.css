@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/images/registerbackground.jpg);
+   
+    font-family: sans-serif;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: row;
+}
+p{
+
+    color: white;
+}
+
+.register-form .detailbox-left{
+    width: 30%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    top: 400px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 35px;
+    border-radius: 20px;
+}
+
+.register-form .detailbox-left h1 .heading-left{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+}
+
+.register-form .detailbox-left{
+    margin: 0;
+    padding: 20px;
+}
+
+.register-form .detailbox-left p{
+    margin: 0;
+    padding: 0;
+}
+
+.register-form .detailbox-left input{
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.register-form .detailbox-left form{
+    text-align: right;
+}
+
+.register-form .detailbox-left input[type="text"] , input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid rgba(65, 64, 64, 0.877);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.register-form .detailbox-left input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.register-form .detailbox-left input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    text-align: center;
+}
+

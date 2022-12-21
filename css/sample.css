@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/* side bar */
+
+body{
+    background: rgb(54, 51, 51);
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 225px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    padding: 0;
+}
+
+.wrapper .sidebar h2{
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225, 225, 225, 0.05);
+    padding: 15px;
+    text-decoration: underline;
+    text-decoration-color: #ffc107;
+}
+
+.wrapper .sidebar ul li a{
+    color: white;
+    display: block; 
+    text-decoration: none;
+    padding: 7px; /*this means up&down padding */
+    padding-left: 15px;
+    width: 100%;
+}
+
+.wrapper .sidebar ul li:hover a{
+    background: rgb(61, 61, 61);
+}
+
+/* user details */
+
+.user-details{
+    top: 0;
+    float: right;
+    display: flex;
+    justify-content: right; /*this use for harahata*/
+    background: rgb(61, 61, 61) ; /*align-items: center; this use for ihalata*/
+}
+
+.detail-box {
+    width: 100%;
+    height: 625px;
+    background-color: rgb(26, 26, 26);
+}
+
+.detail-items{
+    position: relative;
+    width: 225px;
+    background: rgb(26, 26, 26);
+    padding: 0;
+    justify-content: right;
+}
+
+.my-image img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 75px;
+    padding: 10px;
+}
+ .my-image a{
+     text-decoration: none;
+     color: rgb(107, 107, 107);
+     font-size: 12px;
+ }
+
+ .my-image a:hover{
+     color: #ffc107;
+ }
+
+ .my-image{
+     text-align: center;
+ }
+
+ .my-details p{
+     text-align: center;
+     color: white;
+     font-size: 14px;
+ }
+
+ .my-details{
+     text-align: center;
+ }
+
+ .my-details a{
+     text-decoration: none;
+     color: rgb(107, 107, 107);
+     font-size: 12px;
+ }
+
+ .my-details a:hover{
+     color: #ffc107;
+ }
+
+ .middle-details{
+     display: flex;
+     position: absolute;
+     color: white;
+     /* justify-content: center; */
+     /* align-items: center; */
+     margin-left: 280px;
+     margin-top: 150px;
+     margin-right: 280px;
+ }
+
+ /* .headings{
+     position: absolute;
+     justify-content: center;
+     background-color: #ffc107;
+ } */
+
+ .headings ul{
+    list-style-type: none;
+    margin: 0;
+    width: 670px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(133, 117, 132);
+ }
+ 
+ .headings ul li{
+    float: left;
+    padding: 0px;
+ }
+
+ .headings a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 53px;
+    text-decoration: none;
+ }
+ .headings img{
+     width: 10px;
+     height: 10px;
+     margin-left: 5px;
+     margin-top: 7px;
+     margin-right: 5px;
+ }
+
+ .headings ul li a:hover {
+    background-color: rgb(26, 26, 26);
+  }
+
+  .head-middle{
+    display: flex;
+    position: absolute;
+    color: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 0px;
+    margin-top: -130px;
+    margin-right: 350px;
+    /* text-align: -100px; */
+    font-size: 20px;
+  }
+  
+  .head-description{
+    margin-top: -120px;
+    margin-right: 0px;
+    text-align: justify;
+  }
+ 
+  .getApp{
+    color: white;
+    position: fixed;
+    width: 225px;
+    height: 240px;
+    background:rgb(26, 26, 26);
+    padding: 0;
+    bottom: 0%;
+    text-align: center;
+  }
+  .getApp p{
+      margin-top: 3px;
+      font-size: 15px;
+  }
+
+  .getApp .smallDetail{
+      font-size: 13px;
+      color: rgb(255, 255, 255);
+  }
+
+  .getApp img{
+      display: flex;
+      width: 150px;
+      padding: 10px;
+      margin-top: 15px;
+      margin-left: 35px;
+  }
+
+  .downDescription{
+      display: flex;
+      margin-top: 130px;
+      background: rgb(26, 25, 25);
+      padding: 7px ;
+      font-size: 20px;
+      justify-content: center;
+      margin-right: 0px;
+  }
+  
+  .products1{
+     display: flex;
+     width: 200px;
+     margin-top: 30px;
+     margin-left: -3px;
+     text-align: justify;
+  }
+
+  .proImage1 img{
+    position: absolute;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: -55px
+ }
+ 
+ .products2{
+    display: flex;
+    width: 230px;
+    margin-top: -69px;
+    margin-left: 230px;
+    text-align: justify;
+ }
+
+ .proImage2 img{
+   position: absolute;
+   display: block;
+   height: 200px;
+   width: 200px;
+   margin-top: 20px;
+   margin-left: 180px;
+}
+
+.products3{
+    display: flex;
+    width: 200px;
+    margin-top: -49px;
+    margin-left: 470px;
+    text-align: justify;
+ }
+
+ .proImage3 img{
+   position: absolute;
+   display: block;
+   height: 200px;
+   width: 200px;
+   margin-top: 0px;
+   margin-left: 415px
+}

@@ -1,0 +1,110 @@
+.main {
+  
+  font-size: 22px; /* Increased text to enable scrolling */
+  padding: 15px 15px 15px 15px;
+   margin:20px 15px 20px 15px;
+  max-width:90%;
+	width:100%;
+
+	overflow: scroll;
+	max-height: 80vh;
+	
+	background: white;
+	opacity:0.9;
+	border-radius:15px;
+	right: 15px;
+  
+
+  
+}
+
+.btn1{
+    background: #ff0000;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+	float:left;
+	margin-right: 20px;
+	width:180px;
+}
+
+
+.btn1:hover{
+
+    background-color: white;
+    padding: 3px 8px;
+    color: black;
+    border: 2px solid red;
+}
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0px;
+  left:0;
+  
+}
+
+ .column .card-box
+{
+	
+	margin-bottom:10px;
+	left:0px;
+}
+
+.column .card-box .details
+{
+	
+	display:flex;
+	font-weight:500;
+	margin-bottom:0px;
+}
+
+.column .card-box input
+{
+	display:inline;
+	float:left;
+	height:45px;
+	outline:none;
+	border-radius: 5px;
+	border: 1px solid ;
+	font-size:16px;
+	padding-left:15px;
+	border-bottom-width:2px;
+	transition: all 0.3s ease;
+	border-bottom-color:#fb2525;
+	border-color:#fb2525;
+	
+}
+
+
+
+
+@media(max-width:584px)
+{
+	.container
+	{
+		max-width:100%;
+	}
+	
+	.container .main .row.column .card-box
+	{
+		margin-bottom:15px;
+		width:100%;
+	}
+	
+	.container .main .row .column
+	{
+		max-height:300px;
+		overflow:scroll;
+	}
+	
+	.column::_webkit-Scrollbar
+	{
+		width:0;
+	}
+}
